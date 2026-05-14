@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- <center>
+        {% if marks > 40 %}
+        <h1>{{name}} have passed</h1>
+        {%endif%}
+    </center> -->
+      <!-- <center>
+        {% if marks > 40 %}
+        <h1>{{name}} have passed</h1>
+        {% else %}
+        <h1>{{name}} have failed</h1>
+        {%endif%}
+      </center> -->
+      <!-- <center>
+        {% if marks > 90 %}
+        <h1>{{name}} has secured grade A </h1>
+        {% elif marks > 80 %}
+        <h1>{{name}} has secured grade B </h1>
+        {% else %}
+        <h1>{{name}} has secured grade C </h1>
+        {% endif %}
+            </center> -->
+        <!-- <center>
+          {% if marks > 90 %}
+               <h1>{{name}} has passed in 1st Division</h1>
+          {% else %}
+               {% if marks > 80 %}
+                   <h1>{{name}} has passed in 2nd Division</h1>
+               {% else %}
+                   <h1>{{name}} has passed in 3rd Division</h1>
+                   {% endif %}
+          {% endif %}
+        </center> -->
+        <center>
+          {% for ch in name %}
+          <h1>{{ch}}</h1>
+          {% endfor %}
+        </center>
+
+</body>
+</html>
